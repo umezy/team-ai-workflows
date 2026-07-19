@@ -1,0 +1,4 @@
+# Shell scripts must stay LF, or Git Bash chokes on the CR in the shebang line.
+*.sh text eol=lf
+*.py text eol=lf
+.claude/skills/team-setup/scripts/post-merge text eol=lf

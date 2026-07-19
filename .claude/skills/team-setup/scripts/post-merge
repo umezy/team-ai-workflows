@@ -1,0 +1,7 @@
+#!/bin/sh
+# Keep user-level skill links in sync after every pull/merge.
+# Installed into .git/hooks/post-merge by /team-setup.
+# Safe to delete; re-running /team-setup restores it.
+echo "[team-ai-workflows] syncing user-level skills..."
+"$(git rev-parse --show-toplevel)/.claude/skills/team-setup/scripts/sync_user_skills.sh"
+exit 0
