@@ -7,6 +7,8 @@ A template for distributing **Claude Code skills** and a **team knowledge base**
 - Skills are injected into the user level (`~/.claude/skills`) as one link per skill, so they work **in every project on the machine**
 - Knowledge (`sources/`) is searchable from any project via the bundled `/docs-grep` skill — a "repository-shaped RAG" with no vector DB and no server
 
+📖 Full design write-up (Japanese): [git pull だけでチーム全員の Claude Code が賢くなる](https://qiita.com/umezu_y/items/2b09fad5f2a96542f891) — covers the rationale, the trial and error behind this layout, and a comparison with the official plugin marketplace.
+
 ## Prerequisites
 
 | Tool | Purpose |
