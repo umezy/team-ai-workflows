@@ -2,6 +2,8 @@
 
 A template for distributing **Claude Code skills** and a **team knowledge base** through a single git repository.
 
+![Demo: one-time setup, updates via git pull, and knowledge search](docs/demo.gif)
+
 - Onboarding is "clone, then run `/team-setup` once"
 - After that, updates arrive with a plain **`git pull`** (a post-merge hook re-syncs skill links automatically)
 - Skills are injected into the user level (`~/.claude/skills`) as one link per skill, so they work **in every project on the machine**
